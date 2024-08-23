@@ -1,7 +1,9 @@
-# EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
+## EXPERIMENT--01-ALP-FOR-8086
+ Name :Lokesh N
+ 
+ Roll no :212222100023
+ 
+ Date of experiment :
 
 
 
@@ -79,25 +81,104 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 ## Addition  of 8 bit ALP 
 
-
+```
+Mov AL,74H
+Mov BL,69H
+Add AL,BL
+HLT
+```
 
 ## Output  
- 
+ ![image](https://github.com/user-attachments/assets/88b7ca7e-59b4-4416-963a-eb9707ecfc5a)
+
 ## Subtraction   of 8 bit numbers  ALP 
- 
+ ```
+Mov AL,84H
+Mov BL,63H
+Sub AL,BL
+HLT
+```
 ## Output  
+![image](https://github.com/user-attachments/assets/31f900d6-c52c-4327-a75a-6d12fe87ff0e)
+
 ## Multiplication alp 
+```
+
+org 100h
+MOV AL,75H
+MOV BL,32H
+MUL BL
+HLT
+
+ret
+```
  ## Output  
+![image](https://github.com/user-attachments/assets/424980ab-1492-4c87-a7df-f66218bf4d2d)
 
 
 ## Division alp 
+```
 
+org 100h
+MOV AL,68H
+MOV BL,18H
+DIV BL
+HLT
+
+
+ret
+```
 ## Output  
+![image](https://github.com/user-attachments/assets/67ac9855-54f8-471e-abd3-a7c1e8fc4ff2)
 
+## Programs for logical operations
+
+## AND
+```
+Mov AL,33H
+Mov BL,44H
+AND AL,BL
+HLT
+```
+## Output  
+![image](https://github.com/user-attachments/assets/89864b17-c095-4719-be58-5668716c27df)
+
+## OR
+```
+Mov AL,45H
+Mov BL,66H
+OR AL,BL
+HLT
+```
+## Output
+![image](https://github.com/user-attachments/assets/7559c112-5986-4351-a98d-904ff89904f4)
+
+## NOT
+```
+Mov AL,65H
+NOT AL
+HLT
+
+
+```
+## Output
+![image](https://github.com/user-attachments/assets/e98ee1e8-a901-418b-8146-aa8f21ee2d04)
+
+## XOR
+```
+org 100h
+MOV AL,66H
+MOV BL,77H
+XOR AL,BL
+HLT
+ret
+```
+## Output
+![image](https://github.com/user-attachments/assets/0991df73-5b31-4d6a-8f63-0f0c827c4e94)
 
 ## Result :
  
-
+Thus, ALP for fundamental arithmetic and logical operations are executed successfully.
 
 
 
